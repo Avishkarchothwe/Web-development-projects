@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Library Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h2>Your Gateway to Knowledge</h2>
+            <p>Explore a vast collection of books, journals, and resources.</p>
+            <a href="login.html" class="btn">Login</a>
+            <a href="register.html" class="btn">Register</a>
+        </section>
+
+        <section id="search">
+            <h2>Search the Library</h2>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for books, authors, etc." onfocus="showDropdown()" onblur="hideDropdown()">
+                <div id="dropdown" class="dropdown">
+                    <ul>
+                        <li>Harry Potter</li>
+                        <li>The Great Gatsby</li>
+                        <li>To Kill a Mockingbird</li>
+                        <li>1984</li>
+                        <li>The Catcher in the Rye</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our library offers a wide range of resources for students, researchers, and the community. We are dedicated to promoting literacy and lifelong learning.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Book Lending</h3>
+                <p>Borrow books for a specified period and return them on time.</p>
+            </div>
+            <div class="service">
+                <h3>Research Assistance</h3>
+                <p>Get help with your research projects and find the right resources.</p>
+            </div>
+            <div class="service">
+                <h3>Community Events</h3>
+                <p>Join us for workshops, readings, and community gatherings.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Library Management System. All rights reserved.</p>
+   
+        
+
+        
+    </footer>
+</body>
+</html>
